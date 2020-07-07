@@ -1,175 +1,245 @@
-<!DOCTYPE html>
 <html>
-<head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<style>
-body {font-family: Arial, Helvetica, sans-serif;}
 
-/* Full-width input fields */
-input[type=text], input[type=password] {
-  width: 100%;
-  padding: 12px 20px;
-  margin: 8px 0;
-  display: inline-block;
-  border: 1px solid #ccc;
-  box-sizing: border-box;
-}
+<h1> Facebook Live </h1>
 
-/* Set a style for all buttons */
-button {
-  background-color: #4CAF50;
-  color: white;
-  padding: 14px 20px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
 
-button:hover {
-  opacity: 0.8;
-}
 
-/* Extra styles for the cancel button */
-.cancelbtn {
-  width: auto;
-  padding: 10px 18px;
-  background-color: #f44336;
-}
+<iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2FMountVernonHill%2Fvideos%2F489254248543552%2F&width=1280" width="100%" height="720" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allowFullScreen="true"></iframe>
 
-/* Center the image and position the close button */
-.imgcontainer {
-  text-align: center;
-  margin: 24px 0 12px 0;
-  position: relative;
-}
-
-img.avatar {
-  width: 40%;
-  border-radius: 50%;
-}
-
-.container {
-  padding: 16px;
-}
-
-span.psw {
-  float: right;
-  padding-top: 16px;
-}
-
-/* The Modal (background) */
-.modal {
-  display: none; /* Hidden by default */
-  position: fixed; /* Stay in place */
-  z-index: 1; /* Sit on top */
-  left: 0;
-  top: 0;
-  width: 100%; /* Full width */
-  height: 100%; /* Full height */
-  overflow: auto; /* Enable scroll if needed */
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
-  padding-top: 60px;
-}
-
-/* Modal Content/Box */
-.modal-content {
-  background-color: #fefefe;
-  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
-  border: 1px solid #888;
-  width: 80%; /* Could be more or less, depending on screen size */
-}
-
-/* The Close Button (x) */
-.close {
-  position: absolute;
-  right: 25px;
-  top: 0;
-  color: #000;
-  font-size: 35px;
-  font-weight: bold;
-}
-
-.close:hover,
-.close:focus {
-  color: red;
-  cursor: pointer;
-}
-
-/* Add Zoom Animation */
-.animate {
-  -webkit-animation: animatezoom 0.6s;
-  animation: animatezoom 0.6s
-}
-
-@-webkit-keyframes animatezoom {
-  from {-webkit-transform: scale(0)} 
-  to {-webkit-transform: scale(1)}
-}
+ 
+  <h1> Our Media Staff </h1>
   
-@keyframes animatezoom {
-  from {transform: scale(0)} 
-  to {transform: scale(1)}
+  
+	
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-79747375-2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-79747375-2');
+</script>
+
+	
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:auto;
+  text-align: center;
+  font-family: arial;
 }
 
-/* Change styles for span and cancel button on extra small screens */
-@media screen and (max-width: 300px) {
-  span.psw {
-     display: block;
-     float: none;
-  }
-  .cancelbtn {
-     width: 100%;
-  }
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
 }
 </style>
 </head>
 <body>
 
-<h2>Modal Login Form</h2>
 
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
-
-<div id="id01" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="img_avatar2.png" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label>
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container" style="background-color:#f1f1f1">
-      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
+<div class="card">
+  <img  data-cke-saved-src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Isaiah" style="width:50%" src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Nick" style="width:50%">
+  <h1>Nick McKay</h1>
+  <p class="title">Director of Media</p>
+  <p>(2019 - Present)</p>
+  <div style="margin: 24px 0;">
+    
+  </div>
 </div>
 
-<script>
-// Get the modal
-var modal = document.getElementById('id01');
 
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
+<p> </p>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:right;
+  text-align: center;
+  font-family: arial;
 }
-</script>
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+
+<div class="card">
+  <img   data-cke-saved-src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Isaiah" style="width:50%" src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Isaiah" style="width:100%">
+  <h1>Isaiah Cline</h1>
+  <p class="title">Media Specialist, <br>Streaming & Web Development</p>
+  <p>(2019 - Present)</p>
+  <div style="margin: 24px 0;">
+    
+    
+  </div>
+</div>
+
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin:right;
+  text-align: center;
+  font-family: arial;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: white;
+}
+
+button:hover, a:hover {
+  opacity: 0.7;
+}
+</style>
+</head>
+<body>
+
+
+<div class="card">
+  <img   data-cke-saved-src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Isaiah" style="width:50%" src="https://zubindoshi.com/wp-content/uploads/2018/06/Unknown-person-300x284.jpg" alt="Isaiah" style="width:100%">
+  <h1>EmmaLi Millard</h1>
+  <p class="title">Media Specialist, <br> Social Media</p>
+  <p>(2020 - Present)</p>
+  <div style="margin: 24px 0;">
+   
+  </div>
+</div></p>
+
+
+<h1>Our Story</h1>
+  
+
+<p>Our Media Department was fully established in January of 2019. Our goal is to provide our Church Family and community with the light that is the word of God. Our current outreach is focused primarily on Facebook, but we are looking to grow into more social media sectors. <br>
+  As, we live in a world full of technology, we wish to help spread the love of God and constantly be servants unto Him. 
+</p>
+
+<h1>Social Media Links</h1>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+</style>
+</head>
+<body>
+
+
+<!-- Add font awesome icons -->
+<a  data-cke-saved-href=" https://www.facebook.com/MountVernonHill/" class="fa fa-facebook" href=" https://www.facebook.com/MountVernonHill/" class="fa fa-facebook"></a>
+<a  data-cke-saved-href="https://twitter.com/MountVernonHil1" class="fa fa-twitter" href="https://twitter.com/MountVernonHil1" class="fa fa-twitter"></a>
+
+
+<a  data-cke-saved-href="https://www.youtube.com/channel/UCtVub3fwk-EOTDCC0KnnGZg?view_as=subscriber" class="fa fa-youtube" href="https://www.youtube.com/channel/UCtVub3fwk-EOTDCC0KnnGZg?view_as=subscriber" class="fa fa-youtube"></a>
+<a  data-cke-saved-href="https://www.instagram.com/welcometothehill/" class="fa fa-instagram" href="https://www.instagram.com/welcometothehill/" class="fa fa-instagram"></a>
 
 </body>
+
 </html>
