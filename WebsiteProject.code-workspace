@@ -1,0 +1,25 @@
+{
+    "folders": [
+		{
+			"path": "css"
+		},
+		{
+			"path": "js"
+		},
+		{
+			"path": "php"
+		},
+		{
+			"path": "sql"
+		},
+		{
+			"path": "images"
+		},
+		{
+			"path": "vendor"
+		},
+		{
+			"path": "..\\mvesdaorg"
+		}
+	]
+}
